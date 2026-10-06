@@ -25,3 +25,9 @@ Doble clic en `iniciar-profe-ge.bat` → http://localhost:3080
 ## Pendiente para producción
 - Pasar `data/` a Supabase (Postgres + Storage) para poder desplegar en Render/Vercel.
 - Sustituir los testimonios de ejemplo de la portada por reales.
+
+## Demo online (sin servidor)
+https://clases.mercadosemu.com — repo público `saliflajayeg/clases-particulares`, GitHub Pages vía Actions
+(`.github/workflows/pages.yml`). Cada `git push` a `main` vuelve a publicar.
+La demo se compila con `demo/prepare.sh` + `NEXT_PUBLIC_DEMO=1`: sin admin ni cuentas, no guarda nada y
+los formularios terminan enviando la solicitud por WhatsApp. DNS: Cloudflare CNAME `clases` → `saliflajayeg.github.io` (nube gris).
