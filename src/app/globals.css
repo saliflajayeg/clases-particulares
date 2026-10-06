@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-jakarta);
+  --font-display: var(--font-fraunces);
+
+  /* ProfeGE — verde bandera, azul mar, rojo acento, crema cálida */
+  --color-ink: #10231c;
+  --color-muted: #5d6b64;
+  --color-line: #e3e6df;
+  --color-cream: #faf7f0;
+  --color-sand: #f2ecdf;
+  --color-verde: #0f7a3d;
+  --color-verde-dark: #0a5a2c;
+  --color-verde-soft: #e5f2e9;
+  --color-mar: #1e5aa8;
+  --color-rojo: #d6312a;
+  --color-sol: #f3b229;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+.field {
+  @apply w-full rounded-xl border border-line bg-white px-4 py-3 text-[15px] outline-none transition focus:border-verde focus:ring-4 focus:ring-verde/15;
+}
+.label {
+  @apply mb-1.5 block text-sm font-semibold text-ink;
+}
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[15px] font-semibold transition active:scale-[0.98] disabled:opacity-50;
+}
+.btn-verde {
+  @apply bg-verde text-white hover:bg-verde-dark;
+}
+.btn-claro {
+  @apply border border-line bg-white text-ink hover:border-ink/30;
+}
+.chip {
+  @apply inline-flex cursor-pointer select-none items-center rounded-full border border-line bg-white px-3.5 py-2 text-sm transition has-[:checked]:border-verde has-[:checked]:bg-verde has-[:checked]:text-white;
+}
+.card {
+  @apply rounded-3xl border border-line bg-white;
+}
