@@ -24,7 +24,7 @@ export function SolicitudForm() {
 
   if (state?.ok) {
     const ref = state.id?.slice(0, 6).toUpperCase();
-    const wa = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Hola ProfeGE, quiero clases particulares a domicilio (ref. ${ref}).\n${resumen}`)}`;
+    const wa = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Hola Clases Particulares GE, quiero clases particulares a domicilio (ref. ${ref}).\n${resumen}`)}`;
     return (
       <div className="card mt-8 p-8 text-center">
         <div className="text-5xl">🎉</div>

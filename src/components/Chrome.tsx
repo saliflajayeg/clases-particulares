@@ -9,7 +9,7 @@ export function Header() {
         <Link href="/" aria-label="Inicio">
           <Logo />
         </Link>
-        <nav className="hidden items-center gap-7 text-[15px] text-muted md:flex">
+        <nav className="hidden items-center gap-7 whitespace-nowrap text-[15px] text-muted lg:flex">
           <Link href="/#como-funciona" className="hover:text-ink">Cómo funciona</Link>
           <Link href="/#cursos" className="hover:text-ink">Cursos</Link>
           <Link href="/#precios" className="hover:text-ink">Precios</Link>
@@ -17,11 +17,11 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-2">
           {!DEMO && (
-            <Link href="/profesores/acceso" className="hidden px-3 text-sm font-semibold text-muted hover:text-ink sm:block">
+            <Link href="/profesores/acceso" className="hidden whitespace-nowrap px-3 text-sm font-semibold text-muted hover:text-ink sm:block">
               Acceso profesores
             </Link>
           )}
-          <Link href="/pedir-clases" className="btn btn-verde !px-5 !py-2.5 text-sm">
+          <Link href="/pedir-clases" className="btn btn-verde whitespace-nowrap !px-5 !py-2.5 text-sm">
             Pedir clases
           </Link>
         </div>
@@ -35,7 +35,7 @@ export function Footer() {
     <footer className="mt-24 bg-ink text-white/75">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:grid-cols-2 md:grid-cols-4">
         <div className="sm:col-span-2">
-          <div className="text-white"><Logo /></div>
+          <Logo claro />
           <p className="mt-4 max-w-sm text-sm leading-relaxed">
             Clases particulares con profesores verificados en Malabo, Bata y todo el país. Clases a domicilio
             de 1º de ESBA a 2º de Bachillerato.
@@ -60,7 +60,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-5 text-center text-xs text-white/50">
-        © {new Date().getFullYear()} ProfeGE · Hecho en Guinea Ecuatorial 🇬🇶
+        © {new Date().getFullYear()} Clases Particulares GE · Hecho en Guinea Ecuatorial 🇬🇶
       </div>
     </footer>
   );
@@ -69,7 +69,7 @@ export function Footer() {
 export function WhatsAppFab() {
   return (
     <a
-      href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola ProfeGE, quiero información sobre clases particulares")}`}
+      href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola Clases Particulares GE, quiero información sobre clases particulares")}`}
       className="fixed bottom-5 right-5 z-50 grid h-14 w-14 place-items-center rounded-full bg-[#25d366] text-white shadow-lg shadow-black/20 transition hover:scale-105"
       aria-label="Escríbenos por WhatsApp"
     >

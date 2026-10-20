@@ -25,7 +25,7 @@ export function RegistroForm() {
         <a
           className="btn mt-6 bg-[#25d366] text-white"
           href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
-            `Hola ProfeGE, me he registrado como profesor.\nAsignaturas: ${elegidas.map((a) => `${a.nombre} (${sel[a.nombre].map((c) => CURSOS.find((x) => x.id === c)!.corto).join(", ")})`).join("; ")}\nOs envío mi CV y mis títulos.`,
+            `Hola Clases Particulares GE, me he registrado como profesor.\nAsignaturas: ${elegidas.map((a) => `${a.nombre} (${sel[a.nombre].map((c) => CURSOS.find((x) => x.id === c)!.corto).join(", ")})`).join("; ")}\nOs envío mi CV y mis títulos.`,
           )}`}
         >
           Enviar CV por WhatsApp
@@ -181,7 +181,7 @@ export function RegistroForm() {
 
       <label className="flex items-start gap-3 text-sm text-muted">
         <input type="checkbox" required className="mt-1 h-4 w-4 accent-verde" />
-        Confirmo que la información y los documentos son verdaderos y acepto que ProfeGE los verifique.
+        Confirmo que la información y los documentos son verdaderos y acepto que Clases Particulares GE los verifique.
       </label>
 
       {state?.error && <p className="rounded-xl bg-rojo/10 px-4 py-3 text-sm font-medium text-rojo">{state.error}</p>}

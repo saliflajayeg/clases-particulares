@@ -2,20 +2,21 @@
 
 @theme inline {
   --font-sans: var(--font-jakarta);
-  --font-display: var(--font-fraunces);
+  --font-display: var(--font-montserrat);
 
-  /* ProfeGE — verde bandera, azul mar, rojo acento, crema cálida */
-  --color-ink: #10231c;
-  --color-muted: #5d6b64;
-  --color-line: #e3e6df;
-  --color-cream: #faf7f0;
-  --color-sand: #f2ecdf;
-  --color-verde: #0f7a3d;
-  --color-verde-dark: #0a5a2c;
-  --color-verde-soft: #e5f2e9;
-  --color-mar: #1e5aa8;
+  /* Clases Particulares GE — colores del logo: azul marino, azul, celeste y naranja.
+     (Los tokens "verde" son el color principal de marca; conservan el nombre histórico.) */
+  --color-ink: #0d1f45;
+  --color-muted: #5a6785;
+  --color-line: #e1e7f1;
+  --color-cream: #f6f8fc;
+  --color-sand: #edf1f8;
+  --color-verde: #1557c9;
+  --color-verde-dark: #0d2b6b;
+  --color-verde-soft: #e7effd;
+  --color-mar: #1fa3f0;
   --color-rojo: #d6312a;
-  --color-sol: #f3b229;
+  --color-sol: #f7941d;
 }
 
 body {

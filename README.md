@@ -1,4 +1,4 @@
-# ProfeGE — clases particulares en Guinea Ecuatorial
+# Clases Particulares GE — clases particulares en Guinea Ecuatorial
 
 Plataforma para conectar familias/estudiantes con profesores particulares verificados. **Clases solo a domicilio.**
 

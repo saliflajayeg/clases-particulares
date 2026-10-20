@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: "Trabaja con nosotros — profesores"
 const VENTAJAS = [
   ["🎯", "Alumnos sin buscarlos", "Nosotros hacemos la publicidad y te asignamos alumnos que encajan con tus asignaturas, tus cursos y tu barrio."],
   ["🗓️", "Tú pones el horario", "Elige días y franjas, y los barrios a los que puedes ir: las clases son a domicilio."],
-  ["💵", "Cobro puntual cada mes", "Las familias pagan a ProfeGE y tú recibes tu pago mensual, sin perseguir a nadie."],
+  ["💵", "Cobro puntual cada mes", "Las familias pagan a Clases Particulares GE y tú recibes tu pago mensual, sin perseguir a nadie."],
   ["📚", "Varias asignaturas", "¿Das Matemáticas en ESBA y Física en Bachillerato? Marca cada asignatura y curso en los que tienes título."],
 ];
 

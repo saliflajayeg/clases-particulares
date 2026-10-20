@@ -119,7 +119,7 @@ export default async function Admin({ searchParams }: { searchParams: Promise<{ 
                     <a
                       className="font-semibold text-verde"
                       href={`https://wa.me/${asignado.telefono.replace("+", "")}?text=${encodeURIComponent(
-                        `Hola ${asignado.nombre.split(" ")[0]}, te hemos asignado un alumno en ProfeGE: ${s.materias.join(", ")} (${cursoNombre(s.curso)}), clases a domicilio en ${s.ciudad}${s.barrio ? ", " + s.barrio : ""}${s.referencia ? " (" + s.referencia + ")" : ""}. Contacto: ${s.nombre} ${s.telefono}.`,
+                        `Hola ${asignado.nombre.split(" ")[0]}, te hemos asignado un alumno en Clases Particulares GE: ${s.materias.join(", ")} (${cursoNombre(s.curso)}), clases a domicilio en ${s.ciudad}${s.barrio ? ", " + s.barrio : ""}${s.referencia ? " (" + s.referencia + ")" : ""}. Contacto: ${s.nombre} ${s.telefono}.`,
                       )}`}
                     >
                       WhatsApp a {asignado.nombre}

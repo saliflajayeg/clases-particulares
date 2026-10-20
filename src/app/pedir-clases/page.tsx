@@ -21,7 +21,7 @@ export default function Page() {
         <div className="sticky top-24 space-y-4">
           <Image src="/img/quimica.jpg" alt="Alumna en clase particular de Química" width={1168} height={880} sizes="380px" className="aspect-[4/5] w-full rounded-3xl object-cover" />
           <div className="card space-y-3 p-6 text-sm">
-            <p className="font-bold">Por qué ProfeGE</p>
+            <p className="font-bold">Por qué Clases Particulares GE</p>
             <p>✅ Profesores con títulos y certificados revisados</p>
             <p>🔁 Cambio de profesor sin coste</p>
             <p>💬 Seguimiento mensual por WhatsApp</p>

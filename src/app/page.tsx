@@ -12,7 +12,7 @@ const PASOS = [
 ];
 
 const TESTIMONIOS = [
-  { t: "Mi hijo suspendía Matemáticas en 3º de ESBA. Con su profesor de ProfeGE aprobó la recuperación con un 7.", a: "Mamá de Rubén", c: "Malabo · Ela Nguema" },
+  { t: "Mi hijo suspendía Matemáticas en 3º de ESBA. Con su profesor de Clases Particulares GE aprobó la recuperación con un 7.", a: "Mamá de Rubén", c: "Malabo · Ela Nguema" },
   { t: "En 2º de Bachillerato de Ciencias tuve clases de Química y Física en casa dos veces por semana. Entré en Medicina en la UNGE.", a: "Lucía, 18 años", c: "Bata" },
   { t: "Mi hija de 1º de ESBA no entendía el francés. El profesor viene a casa dos tardes por semana y ya saca notables.", a: "Papá de Ana", c: "Malabo · Paraíso" },
 ];
@@ -36,7 +36,7 @@ export default function Home() {
               <span className="h-2 w-2 rounded-full bg-verde" /> Clases a domicilio · ESBA y Bachillerato
             </span>
             <h1 className="mt-5 font-display text-[42px] font-semibold leading-[1.05] tracking-tight sm:text-6xl">
-              Clases particulares que <span className="text-verde">sí</span> mejoran las notas.
+              Clases particulares que <span className="text-sol">sí</span> mejoran las notas.
             </h1>
             <p className="mt-5 max-w-lg text-lg leading-relaxed text-muted">
               Profesores verificados que van a vuestra casa, en Malabo, Bata y toda Guinea Ecuatorial. De 1º de ESBA a 2º

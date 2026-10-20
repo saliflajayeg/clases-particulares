@@ -1,4 +1,4 @@
-export const BRAND = "ProfeGE";
+export const BRAND = "Clases Particulares GE";
 /** Versión de demostración (web estática publicada): no guarda datos, sin cuentas ni panel. */
 export const DEMO = process.env.NEXT_PUBLIC_DEMO === "1";
 export const WHATSAPP = "240555573464"; // número de contacto de la empresa
@@ -95,4 +95,4 @@ export const PRECIOS = [
   { nivel: "Bachillerato", desde: 5000 },
 ];
 
-export const fcfa = (n: number) => n.toLocaleString("es-ES").replace(/,/g, ".") + " FCFA";
+export const fcfa = (n: number) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " FCFA";
